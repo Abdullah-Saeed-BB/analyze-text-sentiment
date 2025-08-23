@@ -1,6 +1,8 @@
 # Analyze Text Sentiment
 By writing the text to the Machine learning model will predict the text sentiment and visualize the impact of each word.<br/>
-I used **Flask** to build the web application and **Scikit-learn** to create the model ([Kaggle notebook](https://www.kaggle.com/code/abdullahsaeedwebdev/sentiment140-tweets-ml-model-acc-80-8) for the process of createing the model), and I used [Sentiment140 1.6M tweets](https://www.kaggle.com/datasets/kazanova/sentiment140) dataset.
+I used **Flask** to build the web application and **Scikit-learn** to create the model, and I used [Sentiment140 1.6M tweets](https://www.kaggle.com/datasets/kazanova/sentiment140) dataset.
+
+[Kaggle notebook](https://www.kaggle.com/code/abdullahsaeedwebdev/sentiment140-tweets-ml-model-acc-80-8) contain the process of createing the model and how to get the negative words and positive words.
 
 ### [Live demo]()
 

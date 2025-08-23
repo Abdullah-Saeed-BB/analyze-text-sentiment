@@ -1,7 +1,17 @@
-This analyze tweets and predict the sentiment of the tweet, [Tweets dataste](https://www.kaggle.com/datasets/kazanova/sentiment140).
+# Analyze Text Sentiment
+By writing the text to the Machine learning model will predict the text sentiment and visualize the impact of each word.<br/>
+I used **Flask** to build the web application and **Scikit-learn** to create the model ([Kaggle notebook](https://www.kaggle.com/code/abdullahsaeedwebdev/sentiment140-tweets-ml-model-acc-80-8) for the process of createing the model), and I used [Sentiment140 1.6M tweets](https://www.kaggle.com/datasets/kazanova/sentiment140) dataset.
 
-This project will be a web application, by entering tweet will return a negative and netrual comments, and how many of comments and the percent of negative comments.
+### [Live demo]()
 
-**System:**
- - When open the page, will be a input for the tweet's url
- - After submit the url, the backend get the tweet data (Username, name, logo, tweet, date) will shows like in X, the backend will send tweet and comments with (comment data, prediction, positive and negative words in the comment).
+## Project Structure
+ - `main.py` Main file, contain the process for preprocessing the data and load the estimators.
+ - `templates/index.html` The main page that the user face.
+ - `estimators/vectorizer.joblib` Is *sklearn.feature_extraction.text.TfidfVectorizer* transformer, to prepare the data before feed it to the model.
+ - `estimators/model.joblib` Is *sklearn.linear_model.LogisticRegression* model. 
+
+## Installation
+Clone the project:<br/>
+`git clone https://github.com/Abdullah-Saeed-BB/analyze-text-Sentiment.git`
+
+Run the `main.py`, and navigate to localhost:5000, and that's it :)

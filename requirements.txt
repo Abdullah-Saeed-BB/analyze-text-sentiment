@@ -2,4 +2,5 @@ flask
 regex
 numpy
 joblib
+scikit-learn
 gunicorn

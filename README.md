@@ -4,7 +4,7 @@ I used **Flask** to build the web application and **Scikit-learn** to create the
 
 [Kaggle notebook](https://www.kaggle.com/code/abdullahsaeedwebdev/sentiment140-tweets-ml-model-acc-80-8) contain the process of createing the model and how to get the negative words and positive words.
 
-### [Live demo]()
+### [Live demo](https://analyze-text-sentiment.onrender.com/)
 
 ## Project Structure
  - `main.py` Main file, contain the process for preprocessing the data and load the estimators.

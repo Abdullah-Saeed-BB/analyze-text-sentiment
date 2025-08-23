@@ -3,8 +3,8 @@ import re
 import numpy as np
 import joblib
 
-model = joblib.load("./machine_learning/tweet_sentiment/estimators/model.joblib")
-vectorizer = joblib.load("./machine_learning/tweet_sentiment/estimators/vectorizer.joblib")
+model = joblib.load("./estimators/model.joblib")
+vectorizer = joblib.load("./estimators/vectorizer.joblib")
 
 feature_names = vectorizer.get_feature_names_out()
 coefs = model.coef_[0]

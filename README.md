@@ -17,3 +17,8 @@ Clone the project:<br/>
 `git clone https://github.com/Abdullah-Saeed-BB/analyze-text-Sentiment.git`
 
 Run the `main.py`, and navigate to localhost:5000, and that's it :)
+
+## Screenshots
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (13)" src="https://github.com/user-attachments/assets/378c26bb-bd32-4da1-b051-b1b53d7b641d" />
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (12)" src="https://github.com/user-attachments/assets/9e842688-c400-4941-890c-fcba899bd03c" />
+<img width="1920" height="1080" alt="‏‏لقطة الشاشة (10)" src="https://github.com/user-attachments/assets/e9526d33-52d0-4580-953c-07e532df7c3d" />
